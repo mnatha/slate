@@ -124,7 +124,7 @@ Remember — a happy kitten is an authenticated kitten!
 ```ruby
 require 'kittn'
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
+api = Wordhop::APIClient.authorize!('meowmeowmeow')
 api.kittens.get(2)
 ```
 
